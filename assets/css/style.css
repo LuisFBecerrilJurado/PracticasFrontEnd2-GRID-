@@ -1,0 +1,22 @@
+.app {
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: /** Se configura el diseño del grid con las areas a trabajar **/
+    "encabezado"
+    "contenido"
+    "rodapie";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto; /** Se asigna el tamaño dependendo de las areas **/
+}
+
+.encabezado {
+    
+}
+
+.contenido {
+    grid-area: contenido;
+}
+
+.rodapie {
+}
